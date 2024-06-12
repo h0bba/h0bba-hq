@@ -1,3 +1,27 @@
 <!DOCTYPE html>
 <html>
+    <title>h0bba HQ</title>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="nav">
+            <button class="pure-button tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen">🏠</button>
+            <button class="pure-button tablink" onclick="openPage('Maps', this, 'white')">🗺</button>
+            <button class="pure-button tablink" onclick="openPage('Scoring', this, 'white')">💯</button>
+            <button class="pure-button tablink" onclick="openPage('Predictor', this, 'white')" >📈</button>
+        </div>
+        
+        <div id="Home" class="tabcontent">
+        </div>
+
+        <div id="Maps" class="tabcontent">
+        </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="jquery-csv.js"></script>
+      <script src="tabs.js"></script>
+    </body>
+
 </html>
